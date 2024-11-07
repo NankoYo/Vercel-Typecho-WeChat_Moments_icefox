@@ -6,7 +6,6 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
 ?>
 
 <div class="fixed left-10 bottom-10 text-gray-300 text-[12px] side-area">
-    <a href="https://nankoyo.com" class="cursor-pointer text-gray-300" target="_blank">NanKoYo</a> .
     <?php
     $beian = $this->options->beian;
     if (isset($beian)) {
